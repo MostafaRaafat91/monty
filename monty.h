@@ -53,7 +53,7 @@ void find_func(char *, char *, int, int);
 stack_t *create_node(int n);
 void free_nodes(void);
 void disp_stk(stack_t **, unsigned int);
-void (stack_t **, unsigned int);
+void ad_stk(stack_t **, unsigned int);
 void ad_que(stack_t **, unsigned int);
 
 void gt_hpy(op_func, char *, char *, int, int);
