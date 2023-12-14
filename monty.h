@@ -78,7 +78,7 @@ void rep1(stack_t **, unsigned int);
 /*Error hanlding*/
 void issue(int error_code, ...);
 void mre_iss(int error_code, ...);
-void string_err(int error_code, ...);
+void str_iss(int error_code, ...);
 void rep2(stack_t **, unsigned int);
 
 #endif
