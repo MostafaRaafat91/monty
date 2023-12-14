@@ -88,7 +88,7 @@ void find_func(char *opcode, char *value, int ln, int format)
 		{"push", ad_stk},
 		{"pall", disp_stk},
 		{"pint", vw_hd},
-		{"pop", vw_hd},
+		{"pop", pul_hd},
 		{"epty", epty},
 		{"swap", mv_hd},
 		{"add", ad_hd},

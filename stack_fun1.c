@@ -45,11 +45,11 @@ void disp_stk(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * vw_hd - Adds a node to the stack.
+ * pul_hd - Adds a node to the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
-void vw_hd(stack_t **stack, unsigned int line_number)
+void pul_hd(stack_t **stack, unsigned int line_number)
 {
 	stack_t *tmp;
 

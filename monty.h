@@ -59,7 +59,7 @@ void ad_que(stack_t **, unsigned int);
 void gt_hpy(op_func, char *, char *, int, int);
 
 void vw_hd(stack_t **, unsigned int);
-void vw_hd(stack_t **, unsigned int);
+void pul_hd(stack_t **, unsigned int);
 void epty(stack_t **, unsigned int);
 void mv_hd(stack_t **, unsigned int);
 
